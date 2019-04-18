@@ -35,5 +35,26 @@ public class BubbleSort {
         System.out.println(); //  to print a newline at the end of the array
     }
 
+    /*
+     * method to sort the values of the array
+     * */
+    public void sort() {
+        for (int i = numElements - 1; i > 1; i--) {
+            for (int j = 0; j < i; j++) {
+                if (array[j] > array[j + 1]) {
+                    swap(j, j + 1);
+                }
+            }
+        }
 
+    }
+
+    /*
+     * method to swap two values of an array
+     * */
+    private void swap(int j, int i) {
+        long temp = array[j];
+        array[j] = array[i];
+        array[i] = temp;
+    }
 }
