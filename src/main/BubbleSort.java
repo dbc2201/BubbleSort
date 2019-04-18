@@ -8,5 +8,10 @@ public class BubbleSort {
 
     public BubbleSort(int n) {
         array = new long[n];    //  create the array with 'n' items
+        numElements = 0;    //  there are no items in the array yet
+    }
+
+    public void insert(long value) {
+
     }
 }
