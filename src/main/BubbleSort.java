@@ -52,9 +52,9 @@ public class BubbleSort {
     /*
      * method to swap two values of an array
      * */
-    private void swap(int j, int i) {
-        long temp = array[j];
-        array[j] = array[i];
-        array[i] = temp;
+    private void swap(int one, int two) {
+        long temp = array[one];
+        array[one] = array[two];
+        array[two] = temp;
     }
 }
