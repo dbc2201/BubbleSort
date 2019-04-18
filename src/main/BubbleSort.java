@@ -27,7 +27,7 @@ public class BubbleSort {
      * */
     public void display() {
         for (int i = 0; i < numElements; i++) {
-            System.out.println(array[i] + " ");
+            System.out.print(array[i] + " ");
             /*
              * to print all the items of the array in a comma separated manner.
              * */
